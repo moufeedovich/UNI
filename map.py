@@ -1,7 +1,7 @@
 import pandas as pd
 import plotly.express as px
 
-
+server = app.server
 def index():
     # Read the population data from CSV
     df = pd.read_csv('population.csv')
